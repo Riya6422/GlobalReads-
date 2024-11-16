@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 1rem;
+    margin-left: 0vw;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#title-bar {
+    margin-left : 80vw;
+    font-size: 5px;
+    color: #fff;
+    margin-right: 0%;
+}
+
+#search-section {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f0f2f5;
+}
+
+#search-bar {
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Category Section */
+#categories {
+    padding: rem;
+    text-align: center;
+    background-color: #eceff1;
+}
+
+.category-list a {
+    text-decoration: none;
+}
+
+.category-list button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffb74d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-list button:hover {
+    background-color: #ffa726;
+}
+
+/* Books Section */
+#books {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.book {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.book:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+#books1 {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* float: left ;
+    margin-left: 150px; */
+}
+
+.book-list1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.book1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.book1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book1 h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+#books2 {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.book-list2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.book2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.book2:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book2 h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+#books3 {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.book-list3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.book3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.book3:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book3 h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+#books4 {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.book-list4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.book4 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.book4:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book4 h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+#booksa {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.book-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.booka {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.booka:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booka img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.booka h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+/*                                   ugyfcxdzzzzzzfc             */
+.site-footer {
+    padding: 0rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column h4 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-left:-30%;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.modal-content h2 {
+    margin-bottom: 1rem;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-content button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
